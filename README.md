@@ -29,19 +29,7 @@ The Angular quickstart was not developed or copied into this repository. It was 
 
 ## Logical architecture
 
-```text
-Alice (Finance user)
-        |
-        v
-  Finance group --------------------> Finance Portal assignment
-        |                                      |
-        v                                      v
-Okta Workforce Identity Cloud <--- browser redirect / OIDC ---> Local Angular test harness
-        |
-        +-- Okta Verify MFA
-        |
-        +-- Default authorization server access policy
-```
+![image alt](https://github.com/Ryhanoo3/okta-workforce-iam-lab/blob/7c19f52a21017322bd85b4463a7ad47f00dcf449/logical%20architecture.png)
 
 Access control is handled through Okta's directory, groups, application assignment, and authorization policies. See [docs/architecture.md](docs/architecture.md) for the logical flow.
 
@@ -70,6 +58,8 @@ The Finance group is assigned to Finance Portal. The application assignment ther
 11. Confirmed access was denied with: `User is not assigned to the client application`.
 
 ## SSO authentication flow
+
+![image alt](https://github.com/Ryhanoo3/okta-workforce-iam-lab/blob/b5daeaf461480ade679bec4d358fcda5e475bc1a/SSO%20authentication%20flow.png)
 
 1. The local Angular quickstart sends the browser to Okta using an OIDC redirect.
 2. Okta evaluates the Finance Portal client, Alice's assignment through Finance, and the applicable access policy.

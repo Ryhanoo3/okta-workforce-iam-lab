@@ -120,22 +120,6 @@ The final denial was confirmed during the lab: `User is not assigned to the clie
 - Access revocation and denial validation
 - Audit-friendly, repeatable access testing
 
-## Limitations
-
-- The users, groups, and Finance Portal are fictional lab objects.
-- The Angular application is an official Okta sample used solely for local validation; it is not included here.
-- This lab does not implement automated joiner/mover/leaver workflows, HR integrations, SCIM provisioning, or production monitoring.
-- The screenshots document selected controls and outcomes, not every tenant configuration screen.
-
-## Future improvements
-
-- Add group rules driven by department attributes.
-- Integrate an HR source and automate joiner, mover, and leaver changes.
-- Add SCIM provisioning and deprovisioning to downstream applications.
-- Define stronger sign-on policies for sensitive applications.
-- Add access reviews, recertification, and audit reporting.
-- Test group claims and API authorization with a protected resource server.
-
 ## Repository structure
 
 ```text

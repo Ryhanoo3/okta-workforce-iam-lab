@@ -1,4 +1,5 @@
 # Okta Workforce IAM Lab
+![image alt](https://github.com/Ryhanoo3/okta-workforce-iam-lab/blob/348729d7f410a7daf5f53a982434e83399fb9f60/Diagram.jpeg)
 
 A hands-on identity and access management administration lab that models workforce access to a fictional Finance Portal using Okta groups, OIDC single sign-on, MFA, and access revocation.
 
